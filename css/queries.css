@@ -1,0 +1,333 @@
+/* 1440px */
+@media (max-width: 90em) {
+  .pc__img {
+    display: none;
+  }
+  .sp__img {
+    display: block;
+  }
+
+  .header__inner {
+    margin: 0 auto;
+  }
+
+  .restaurant__name {
+    font-family: Tangerine;
+    letter-spacing: 1.5rem;
+    font-size: 9rem;
+    color: #ffe9c9;
+    border-bottom: 3px solid #ffe9c9;
+
+    text-align: center;
+  }
+  .main__btn {
+    padding: 2rem 4rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .section {
+    margin-top: 15rem;
+  }
+  .section__1-flex {
+    max-width: 120rem;
+    column-gap: 2rem;
+  }
+  .section__1_text-container {
+    width: 38rem;
+  }
+  .section1_img {
+    width: 38rem;
+  }
+
+  .menu__section__container {
+    column-gap: 5rem;
+    justify-content: center;
+    max-width: 120rem;
+  }
+  .menu__container {
+    width: 35rem;
+  }
+
+  .section__title-menu {
+    margin: 3rem auto 10rem auto;
+  }
+
+  .section4__flex {
+    max-width: 120rem;
+  }
+  .section__4__text-container {
+    width: 60rem;
+    height: 60rem;
+  }
+  .section__4__img-container {
+    width: 60rem;
+    height: 60rem;
+  }
+
+  .footer__title {
+    display: inline-block;
+    font-family: Tangerine;
+    letter-spacing: 0.6rem;
+    font-size: 4.8rem;
+    color: #ffe9c9;
+    border-bottom: 1px solid #ffe9c9;
+  }
+
+  #section__5 {
+    padding-bottom: 15rem;
+  }
+}
+
+/* 1328px */
+@media (max-width: 83em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* 1200px */
+@media (max-width: 75em) {
+  .restaurant__name {
+    font-family: Tangerine;
+    letter-spacing: 1.5rem;
+    font-size: 7rem;
+    color: #ffe9c9;
+    border-bottom: 3px solid #ffe9c9;
+
+    text-align: center;
+  }
+  .main__btn {
+    padding: 1.5rem 3rem;
+    letter-spacing: 0.7rem;
+    margin: 0 auto;
+  }
+
+  .section__title {
+    margin: 0 auto 3rem auto;
+  }
+  .section__title-menu {
+    margin: 3rem auto 3rem auto;
+  }
+
+  .section__1-flex {
+    grid-template-columns: none;
+    max-width: 100rem;
+    column-gap: 2rem;
+  }
+  .section__1_text-container {
+    width: 70rem;
+  }
+  .section1_img {
+    width: 35rem;
+  }
+
+  .slider {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .slide__text {
+    column-gap: 15rem;
+  }
+  .dots {
+    bottom: 15%;
+  }
+
+  .menu__section__container {
+    max-width: 100rem;
+  }
+  .menu__container {
+    width: 30rem;
+  }
+
+  .section4__flex {
+    max-width: 80rem;
+  }
+  .section__4__text-container {
+    width: 40rem;
+    height: 40rem;
+  }
+  .section__4__img-container {
+    width: 40rem;
+    height: 40rem;
+  }
+  .text-content {
+    line-height: 3rem;
+  }
+
+  footer {
+    max-width: 80rem;
+  }
+  ul.text-content {
+    padding-top: 2rem;
+  }
+  .footer__title {
+    display: inline-block;
+    font-family: Tangerine;
+    letter-spacing: 0.6rem;
+    font-size: 4.8rem;
+    color: #ffe9c9;
+    border-bottom: 1px solid #ffe9c9;
+  }
+  .footer__text {
+    padding: 2rem 0 0;
+    line-height: 3rem;
+    text-align: center;
+    list-style: none;
+  }
+  .footer__text:first-child {
+    padding-top: 4rem;
+  }
+
+  .access__title {
+    font-size: 3.2rem;
+  }
+}
+
+/* 928px */
+@media (max-width: 58em) {
+  .section {
+    padding: 0;
+  }
+
+  .menu__section__container {
+    margin: 0 auto;
+    max-width: 700rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu__container {
+    justify-self: center;
+    width: 30rem;
+  }
+
+  .slider {
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  .slide__text {
+    column-gap: 8rem;
+  }
+  .slide__name {
+    font-size: 1.4rem;
+  }
+  .slider__btn {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.6rem;
+
+    top: 20%;
+  }
+  .dots {
+    bottom: 35%;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .restaurant__name {
+    letter-spacing: 1rem;
+    font-size: 6rem;
+    border-bottom: 2px solid #ffe9c9;
+  }
+
+  .nav__list {
+    column-gap: 6.5rem;
+  }
+
+  .section__1-flex {
+    max-width: 70rem;
+    column-gap: 2rem;
+  }
+  .section__1_text-container {
+    width: 40rem;
+  }
+  .section1_img {
+    width: 30rem;
+  }
+
+  .slider {
+    max-width: 70rem;
+  }
+  .slide__text {
+    column-gap: 9rem;
+  }
+
+  .menu__section__container {
+    margin: 0 auto;
+    max-width: 50rem;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+  .menu__container {
+    justify-self: center;
+    width: 30rem;
+  }
+
+  .section4__flex {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    max-width: 80rem;
+  }
+  .section__4__text-container {
+    margin: 0 auto;
+    width: 40rem;
+    height: 40rem;
+  }
+  .section__4__img-container {
+    margin: 0 auto;
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+/* 648px */
+@media (max-width: 40em) {
+  .sp__img {
+    display: none;
+  }
+
+  .sp-2__img {
+    display: block;
+  }
+
+  .header {
+    padding-bottom: 0;
+  }
+
+  .nav__list {
+    letter-spacing: 0;
+    column-gap: 3rem;
+  }
+  .nav__link {
+    font-size: 90%;
+  }
+
+  .slider {
+    max-width: 40rem;
+  }
+  .slide__text {
+    column-gap: 1rem;
+  }
+  .slider__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+
+    top: 15%;
+  }
+  .slide__text {
+    margin: 0 auto;
+    column-gap: 3rem;
+  }
+  .slide__text--1 {
+    column-gap: 1rem;
+  }
+  .slide__text--2 {
+    column-gap: 1rem;
+  }
+  .slide__text--3 {
+    column-gap: 1rem;
+  }
+  .dots {
+    bottom: 50%;
+  }
+}
